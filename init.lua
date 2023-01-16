@@ -17,6 +17,7 @@ require("reinz.plugins.gitsigns")
 require("reinz.plugins.undo-tree")
 require("reinz.plugins.bufferline")
 require("reinz.plugins.colorizer")
+require("reinz.plugins.text")
 
 -- notify
 require("notify").setup({

@@ -127,20 +127,10 @@ return packer.startup(function(use)
     },
   })
 
-  -- ChatGPT
-  use({
-    "jackMort/ChatGPT.nvim",
-    config = function()
-      require("chatgpt").setup({
-        -- optional configuration
-      })
-    end,
-    requires = {
-      "MunifTanjim/nui.nvim",
-      "nvim-lua/plenary.nvim",
-      "nvim-telescope/telescope.nvim",
-    },
-  })
+  -- multi cursor
+  use("mg979/vim-visual-multi")
+  use("rmagatti/alternate-toggler")
+  use("gcmt/wildfire.vim")
 
   ----------------------------------------------------------
 
