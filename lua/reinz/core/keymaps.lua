@@ -8,11 +8,7 @@ local keymap = vim.keymap -- for conciseness
 ---------------------
 
 -- use jk to exit insert mode
-keymap.set("i", "jj", "<ESC>")
-keymap.set("i", "jk", "<ESC>")
-keymap.set("i", "hh", "<ESC>")
-keymap.set("i", "kk", "<ESC>")
-keymap.set("i", "ll", "<ESC>")
+keymap.set("i", "<C-q>", "<ESC>")
 
 -- clear search highlights
 keymap.set("n", "<leader>nh", ":nohl<CR>")
